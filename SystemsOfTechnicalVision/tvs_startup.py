@@ -4,7 +4,7 @@ import argparse
 import json
 from tvs_builder import TechnicalVisionSystemBuilder
 from high_level_processing.preprocessing import clean_output_directory
-from high_level_processing.smiles_hl_processing import smiles_hl_processing
+from high_level_processing.lumbers_hl_processing import lumbers_hl_processing
 
 
 def _parse_arguments():
