@@ -33,7 +33,7 @@ def main():
             .with_filters(settings["preprocessing"]["filters_chain"])\
             .with_details_extraction_methods(settings["details_extraction"]["methods"])\
             .with_detection_methods(settings["detection_and_segmentation"]["methods"])\
-            .result_processed_by(smiles_hl_processing)
+            .result_processed_by(lumbers_hl_processing)
 
         if settings["common_settings"]["is_parallel_processing"]:
             technical_vision_system_builder.in_parallel()
